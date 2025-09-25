@@ -8,10 +8,11 @@
 
 function $(id) { return (document.getElementById(id)); }
 
-function _t(id) { return (document.getElementById(id).textContent); }
+function _s(id) { return (document.getElementById('svg').getSVGDocument().getElementById(id)); }
 
-function _c(id) { return parseInt(document.getElementById(id).textContent, 2); }
+function _t(id) { return (_s(id).textContent); }
 
+function _c(id) { return parseInt(_s(id).textContent, 2); }
 
 // Lineas de la representación visibles (inicialmente todas)
 var WIRES = [
@@ -262,41 +263,41 @@ function init(next) {
 
 function hideWires() {
     while (WIRES.length != 0)
-        $(WIRES.pop()).style.display = 'none';
+        _s(WIRES.pop()).style.display = 'none';
 };
 
 function resetRecords() {
     RECORDS.map(
         function (r) {
-            $(r).textContent = $(r).textContent.replace(/[1]/g, '0');
+            _s(r).textContent = _s(r).textContent.replace(/[1]/g, '0');
         })
 }
 
 function setMemoryTable() {
     for (var i = 0; i < TM.length; i++)
-        $('TD' + i).textContent = TM[i]
+        _s('TD' + i).textContent = TM[i];
 };
 
 function showWire(name) {
     WIRES.push(name);
-    $(name).style.display = 'block';
+    _s(name).style.display = 'block';
 };
 
 function changeContent(from, to) {
-    $(to).textContent = $(from).textContent;
+    _s(to).textContent = _s(from).textContent;
 };
 
 function changeSpecialContent(to, content) {
-    $(to).textContent = content;
+    _s(to).textContent = content;
 };
 
 function changeDecoder(type) {
     ACTUAL.ALU = type;
-    $('Deco').textContent = DECODER.get(type);
+    _s('Deco').textContent = DECODER.get(type);
 };
 
 function countIncrement() {
-    var c = $('CPro').textContent;
+    var c = _s('CPro').textContent;
     c = parseInt(c, 2);
     c++;
     return checkLength(c, 4);
