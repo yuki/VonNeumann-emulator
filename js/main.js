@@ -1,6 +1,7 @@
 /*
- *		Pedro Gutiérrez
- *		[info@xitrus.es]
+ *		Original code: Pedro Gutiérrez: [info@xitrus.es]
+ *      Original Documentation: Noemi Navarro
+ *      Modifications: Rubén Gómez [https://github.com/yuki]
  */
 
 
@@ -11,100 +12,6 @@ function _t(id) { return (document.getElementById(id).textContent); }
 
 function _c(id) { return parseInt(document.getElementById(id).textContent, 2); }
 
-// Tabla de memoria
-var TM,
-    TMT = [];
-TMT[0] = {
-    tag: '5 + 11 = 16',
-    table: [
-        ['00000100'],
-        ['00000101'],
-        ['01100111'],
-        ['01110000'],
-        ['00000101'],
-        ['00001011'],
-        ['00000000'],
-        ['00000000']
-    ]
-};
-TMT[1] = {
-    tag: '(1 + 1) ^ 5 = 32',
-    table: [
-        ['00000101'],
-        ['00000101'],
-        ['00110110'],
-        ['01100111'],
-        ['01110000'],
-        ['00000001'],
-        ['00000101'],
-        ['00000000']
-    ]
-};
-TMT[2] = {
-    tag: '01001011 OR 01010101 = 01011111',
-    table: [
-        ['00000100'],
-        ['01010101'],
-        ['01100111'],
-        ['01110000'],
-        ['01001011'],
-        ['01010101'],
-        ['00000000'],
-        ['00000000']
-    ]
-};
-TMT[3] = {
-    tag: '01001011 AND 01010101 = 01000001',
-    table: [
-        ['00000100'],
-        ['01000101'],
-        ['01100111'],
-        ['01110000'],
-        ['01001011'],
-        ['01010101'],
-        ['00000000'],
-        ['00000000']
-    ]
-};
-TMT[4] = {
-    tag: '255 + 1 = OVERFLOW',
-    table: [
-        ['00000100'],
-        ['00000101'],
-        ['01100111'],
-        ['01110000'],
-        ['11111111'],
-        ['00000001'],
-        ['00000000'],
-        ['00000000']
-    ]
-};
-TMT[5] = {
-    tag: '((2 ^ 2) + 2) ^ 2 = 36',
-    table: [
-        ['00000110'],
-        ['00110110'],
-        ['00000110'],
-        ['00110110'],
-        ['01100111'],
-        ['01110000'],
-        ['00000010'],
-        ['00000000']
-    ]
-};
-TMT[6] = {
-    tag: '(8 - 3) ^ 3 = 125',
-    table: [
-        ['00000101'],
-        ['00010110'],
-        ['00110110'],
-        ['01100111'],
-        ['01110000'],
-        ['00001000'],
-        ['00000011'],
-        ['00000000']
-    ]
-};
 
 // Lineas de la representación visibles (inicialmente todas)
 var WIRES = [
@@ -139,19 +46,19 @@ var INSTRUCTIONS = [],
 
 // Función inicial (conseguir orden + funciçon aritmética/lógica)
 INSTRUCTIONS['init'] = [];
-INSTRUCTIONS['init'][01] =
+INSTRUCTIONS['init'][1] =
     function () { showWire('CPro-RDir'); changeContent('CPro', 'RDir'); };
-INSTRUCTIONS['init'][02] =
+INSTRUCTIONS['init'][2] =
     function () { showWire('CProInc'); changeSpecialContent('CPro', countIncrement()); };
-INSTRUCTIONS['init'][03] =
+INSTRUCTIONS['init'][3] =
     function () { showWire('RDir-TD' + _c('RDir')); };
-INSTRUCTIONS['init'][04] =
+INSTRUCTIONS['init'][4] =
     function () { showWire('TD-RDat' + _c('RDir')); changeContent('TD' + _c('RDir'), 'RDat'); };
-INSTRUCTIONS['init'][05] =
+INSTRUCTIONS['init'][5] =
     function () { showWire('RDat-RIns'); changeContent('RDat', 'RIns'); };
-INSTRUCTIONS['init'][06] =
+INSTRUCTIONS['init'][6] =
     function () { showWire('RIns-Deco'); changeDecoder(_t('RIns').substr(0, 4)); };
-INSTRUCTIONS['init'][07] =
+INSTRUCTIONS['init'][7] =
     function () {
         if (SPECIALS.indexOf(ACTUAL.ALU) != -1) {
             ACTUAL.step = 0;
@@ -162,9 +69,9 @@ INSTRUCTIONS['init'][07] =
             changeSpecialContent('RDir', _t('RIns').substr(4, 4));
         }
     };
-INSTRUCTIONS['init'][08] =
+INSTRUCTIONS['init'][8] =
     function () { showWire('RDir-TD' + _c('RDir')); };
-INSTRUCTIONS['init'][09] =
+INSTRUCTIONS['init'][9] =
     function () { showWire('TD-RDat' + _c('RDir')); changeContent('TD' + _c('RDir'), 'RDat'); };
 INSTRUCTIONS['init'][10] =
     function () { showWire('RDat-REnt'); changeContent('RDat', 'REnt'); };
@@ -175,20 +82,20 @@ INSTRUCTIONS['init'][12] =
 
 // Pasos de pasar acumulador a memoria
 INSTRUCTIONS['0110'] = [];
-INSTRUCTIONS['0110'][01] =
+INSTRUCTIONS['0110'][1] =
     function () { showWire('RIns-RDir'); changeSpecialContent('RDir', _t('RIns').substr(4, 4)); };
-INSTRUCTIONS['0110'][02] =
+INSTRUCTIONS['0110'][2] =
     function () { showWire('RDir-TD' + _c('RDir')); };
-INSTRUCTIONS['0110'][03] =
+INSTRUCTIONS['0110'][3] =
     function () { showWire('RDir-TD' + _c('RDir')); showWire('Acum-RDat'); changeContent('Acum', 'RDat'); };
-INSTRUCTIONS['0110'][04] =
+INSTRUCTIONS['0110'][4] =
     function () { showWire('RDat-TD' + _c('RDir')); showWire('RDir-TD' + _c('RDir')); TM[_c('RDir')] = _t('RDat'); setMemoryTable(); };
-INSTRUCTIONS['0110'][05] =
+INSTRUCTIONS['0110'][5] =
     function () { init(); };
 
 // Pasos de parar la ejecución
 INSTRUCTIONS['0111'] = [];
-INSTRUCTIONS['0111'][01] =
+INSTRUCTIONS['0111'][1] =
     function () { changeSpecialContent('CPro', '1111'); nextDoc(); ACTUAL.inst = 'finished'; };
 
 // Instrucciones de la ALU
@@ -233,24 +140,24 @@ INFOINST['0111'] = 'Finalizar      ';
 // Comentarios de la ejecución
 var DOC = [];
 DOC['init'] = [];
-DOC['init'][01] = "La *Unidad de control* envía una micro-orden para transferir el contenido del *Contador de programa* al *Registro de direcciones*.";
-DOC['init'][02] = "El *Contador de programa* aumenta en uno, por lo que su contenido será la dirección de la próxima instrucción a ejecutar. ";
-DOC['init'][03] = "Se selecciona la posición de memoria que indica el *Registro de direcciones* y se realiza una lectura en la memoria.";
-DOC['init'][04] = "Se deposita en el *Registro de datos* la instrucción a ejecutar.";
-DOC['init'][05] = "Se realiza el traslado de la información contenida en el *Registro de datos* al *Registro de instrucciones*, donde se almacenará.";
-DOC['init'][06] = "El *Decodificador* procede a la interpretación de la instrucción que serán los 4 primeros bits, es decir, interpreta el código de operación.";
-DOC['init'][07] = "El *Registro de instrucciones* envía los 4 últimos bits al *Registro de direcciones*.";
-DOC['init'][08] = "El *Registro de direcciones* busca en la memoria la celda correspondiente y procede a la lectura del dato.";
-DOC['init'][09] = "La información es enviada al *Registro de datos*.";
+DOC['init'][1]  = "La *Unidad de control* envía una micro-orden para transferir el contenido del *Contador de programa* al *Registro de direcciones*."
+DOC['init'][2]  = "El *Contador de programa* aumenta en uno, por lo que su contenido será la dirección de la próxima instrucción a ejecutar. ";
+DOC['init'][3]  = "Se selecciona la posición de memoria que indica el *Registro de direcciones* y se realiza una lectura en la memoria.";
+DOC['init'][4]  = "Se deposita en el *Registro de datos* la instrucción a ejecutar.";
+DOC['init'][5]  = "Se realiza el traslado de la información contenida en el *Registro de datos* al *Registro de instrucciones*, donde se almacenará.";
+DOC['init'][6]  = "El *Decodificador* procede a la interpretación de la instrucción que serán los 4 primeros bits, es decir, interpreta el código de operación.";
+DOC['init'][7]  = "El *Registro de instrucciones* envía los 4 últimos bits al *Registro de direcciones*.";
+DOC['init'][8]  = "El *Registro de direcciones* busca en la memoria la celda correspondiente y procede a la lectura del dato.";
+DOC['init'][9]  = "La información es enviada al *Registro de datos*.";
 DOC['init'][10] = "El *Registro de datos* envía la información al *Registro de entrada*.";
 DOC['init'][11] = "El *Circuito operacional* realiza la operación con el *Registro acumulador* y el *Registro de entrada* y lo almacena de nuevo en el *Registro acumulador*.";
 DOC['0110'] = [];
-DOC['0110'][01] = "El *Registro de instrucciones* envía los 4 últimos bits al *Registro de direcciones*.";
-DOC['0110'][02] = "El *Registro de direcciones* busca en la memoria la celda en la que será almacenada el resultado.";
-DOC['0110'][03] = "El *Registro acumulador* envía la información al *Registro de datos*.";
-DOC['0110'][04] = "El *Registro de datos* procede a la escritura de la información en la celda seleccionada por el *Registro de Direcciones*.";
+DOC['0110'][1] = "El *Registro de instrucciones* envía los 4 últimos bits al *Registro de direcciones*.";
+DOC['0110'][2] = "El *Registro de direcciones* busca en la memoria la celda en la que será almacenada el resultado.";
+DOC['0110'][3] = "El *Registro acumulador* envía la información al *Registro de datos*.";
+DOC['0110'][4] = "El *Registro de datos* procede a la escritura de la información en la celda seleccionada por el *Registro de Direcciones*.";
 DOC['0111'] = [];
-DOC['0111'][01] = "El *Decodificador* intepreta que se finaliza el programa y se para la ejecución.";
+DOC['0111'][1] = "El *Decodificador* intepreta que se finaliza el programa y se para la ejecución.";
 
 // Créditos
 var ABOUT =
