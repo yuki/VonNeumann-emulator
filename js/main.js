@@ -270,7 +270,7 @@ function programSelector() {
     // Info. instrucciones
     r += "    Información de instrucciones\n";
     r += "+--------+-----+-------------------+\n";
-    r += "|  Inst  |  D  |  Comenatario      |\n";
+    r += "|  Inst  |  D  |  Comentario       |\n";
     r += "+--------+-----+-------------------+\n";
     for (var i in DECODER)
         r += '|  ' + i + '  |  ' + DECODER[i] + '  |  ' + INFOINST[i] + '  |\n';
