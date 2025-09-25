@@ -26,25 +26,15 @@ var WIRES = [
 var RECORDS = ["RIns", "CPro", "Deco", "REnt", "Acum", "RDir", "RDat"];
 
 /*
- *	Instrucciones
- *
- *	0000  =>  Suma
- *	0001  =>  Resta
- *	0010  =>  Multiplicación
- *  0011  =>  Exponente
- *	0100  =>  Operación AND
- *	0101  =>  Operación OR
- *	0110  =>  Resultado a memoria
- *	0111  =>  Parar la ejecución
- *
- *	Nota: no admite negativo
+ *	Instructions: 4 bits
+ *	Note: negatives not allowed
  */
 var ACTUAL = {};
 
 var INSTRUCTIONS = [],
-    SPECIALS = ['0110', '0111'];
+    SPECIALS = ['0110', '0111', '1000', '1001', '1010'];
 
-// Función inicial (conseguir orden + funciçon aritmética/lógica)
+// Función inicial (conseguir orden + función aritmética/lógica)
 INSTRUCTIONS['init'] = [];
 INSTRUCTIONS['init'][1] =
     function () { showWire('CPro-RDir'); changeContent('CPro', 'RDir'); };
@@ -80,7 +70,7 @@ INSTRUCTIONS['init'][11] =
 INSTRUCTIONS['init'][12] =
     function () { init(); };
 
-// Pasos de pasar acumulador a memoria
+// From the acumulator to memory
 INSTRUCTIONS['0110'] = [];
 INSTRUCTIONS['0110'][1] =
     function () { showWire('RIns-RDir'); changeSpecialContent('RDir', _t('RIns').substr(4, 4)); };
@@ -93,14 +83,46 @@ INSTRUCTIONS['0110'][4] =
 INSTRUCTIONS['0110'][5] =
     function () { init(); };
 
-// Pasos de parar la ejecución
+// Instruction to finish the program
 INSTRUCTIONS['0111'] = [];
 INSTRUCTIONS['0111'][1] =
     function () { changeSpecialContent('CPro', '1111'); nextDoc(); ACTUAL.inst = 'finished'; };
 
-// Instrucciones de la ALU
-// Nota: la entrada tiene que ser decimal
+// Instruction NOT
+INSTRUCTIONS['1000'] = [];
+INSTRUCTIONS['1000'][1] = 
+    function () { showWire('Acum-RDat'); changeContent('Acum', 'RDat');};
+INSTRUCTIONS['1000'][2] = 
+    function () { showWire('RDat-REnt'); changeContent('RDat', 'REnt'); };
+INSTRUCTIONS['1000'][3] = 
+    function () {  showWire('ALU-Acum'); changeSpecialContent('Acum', runALU(ACTUAL.ALU)); };
+INSTRUCTIONS['1000'][4] = 
+    function () { init(); };
 
+// Instruction INC
+INSTRUCTIONS['1001'] = [];
+INSTRUCTIONS['1001'][1] = 
+    function () { showWire('Acum-RDat'); changeContent('Acum', 'RDat');};
+INSTRUCTIONS['1001'][2] = 
+    function () { showWire('RDat-REnt'); changeContent('RDat', 'REnt'); };
+INSTRUCTIONS['1001'][3] = 
+    function () {  showWire('ALU-Acum'); changeSpecialContent('Acum', runALU(ACTUAL.ALU)); };
+INSTRUCTIONS['1001'][4] = 
+    function () { init(); };
+
+// Instruction DEC
+INSTRUCTIONS['1010'] = [];
+INSTRUCTIONS['1010'][1] = 
+    function () { showWire('Acum-RDat'); changeContent('Acum', 'RDat');};
+INSTRUCTIONS['1010'][2] = 
+    function () { showWire('RDat-REnt'); changeContent('RDat', 'REnt'); };
+INSTRUCTIONS['1010'][3] = 
+    function () {  showWire('ALU-Acum'); changeSpecialContent('Acum', runALU(ACTUAL.ALU)); };
+INSTRUCTIONS['1010'][4] = 
+    function () { init(); };
+
+// ALU's instructions
+// Note: the input must be decimal (before the function call to _c)
 var ALU = [];
 ALU['0000'] =
     function (a, b) { return a + b; };
@@ -114,30 +136,52 @@ ALU['0100'] =
     function (a, b) { return a & b; };
 ALU['0101'] =
     function (a, b) { return a | b; };
+ALU['1000'] =
+    function (a, b) { return 255-a; };
+ALU['1001'] =
+    function (a, b) { return a+1; };
+ALU['1010'] =
+    function (a, b) { return a-1; };
 
-// Signo decodificador
-var DECODER = [];
-DECODER['0000'] = '+';
-DECODER['0001'] = '-';
-DECODER['0010'] = '*';
-DECODER['0011'] = '^';
-DECODER['0100'] = '&';
-DECODER['0101'] = '|';
-DECODER['0110'] = 'M';
-DECODER['0111'] = '…';
+// Decodificator's sign
+var DECODER = new Map([
+    ['0000','+'],
+    ['0001','-'],
+    ['0010','*'],
+    ['0011','^'],
+    ['0100','&'],
+    ['0101','|'],
+    ['0110','M'],
+    ['0111','…'],
+    ['1000','!'],
+    ['1001','I'],
+    ['1010','D'],
+    ['1011','L'],
+    ['1100','R'],
+    ['1101','X'],
+    ['1110','T'],
+]);
 
 // Comnentario de la instrucción
-var INFOINST = []
-INFOINST['0000'] = 'Suma           ';
-INFOINST['0001'] = 'Resta          ';
-INFOINST['0010'] = 'Producto       ';
-INFOINST['0011'] = 'Exponente      ';
-INFOINST['0100'] = 'Operador AND   ';
-INFOINST['0101'] = 'Operador OR    ';
-INFOINST['0110'] = 'Mover a memoria';
-INFOINST['0111'] = 'Finalizar      ';
+var INFOINST = new Map([
+    ['0000','Suma           '],
+    ['0001','Resta          '],
+    ['0010','Producto       '],
+    ['0011','Exponente      '],
+    ['0100','Operador AND   '],
+    ['0101','Operador OR    '],
+    ['0110','Mover a memoria'],
+    ['0111','Finalizar      '],
+    ['1000','Operador NOT   '],
+    ['1001','Incrementar +1 '],
+    ['1010','Decrementar -1 '],
+    ['1011','ROL            '],
+    ['1100','ROR            '],
+    ['1101','Operador XOR   '],
+    ['1110','RST acumulador '],
+]);
 
-// Comentarios de la ejecución
+// Comments for each step of the instructions
 var DOC = [];
 DOC['init'] = [];
 DOC['init'][1]  = "La *Unidad de control* envía una micro-orden para transferir el contenido del *Contador de programa* al *Registro de direcciones*."
@@ -159,12 +203,17 @@ DOC['0110'][4] = "El *Registro de datos* procede a la escritura de la informaci�
 DOC['0111'] = [];
 DOC['0111'][1] = "El *Decodificador* intepreta que se finaliza el programa y se para la ejecución.";
 
+// Comments for the special instructions
+DOC['1000'] = DOC['1001'] = DOC['1010'] = [];
+DOC['1000'][1] = DOC['1001'][1] = DOC['1010'][1] = "El *Registro acumulador* envía la información al *Registro de datos*.";
+DOC['1000'][2] = DOC['1001'][2] = DOC['1010'][2] = "El *Registro de datos* envía la información al *Registro de entrada*.";
+DOC['1000'][3] = DOC['1001'][3] = DOC['1010'][3] = "El *Circuito operacional* realiza la operación con SÓLO el *Registro de entrada* y lo almacena de nuevo en el *Registro acumulador*.";
+
 // Créditos
 var ABOUT =
-    '<span><a target="_blank" href="http://xitrus.es">Pedro Gutiérrez</a></span>: ' +
-    'diseño y desarrollo del simulador' + '<br>' +
-    '<span>Noemi Navarro</span>: ' +
-    'documentación de la ejecución'
+    '<span><a target="_blank" href="http://xitrus.es">Pedro Gutiérrez</a></span>: diseño y desarrollo del simulador <br>' +
+    '<span>Noemi Navarro</span>: documentación de la ejecución <br>' +
+    '<span><a target="_blank" href="https://github.com/yuki/">Rubén Gómez</a></a></span>: ampliación del set de instrucciones <br>'
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -179,11 +228,9 @@ function programSelector() {
     r += "+--------+-----+-------------------+\n";
     r += "|  Inst  |  D  |  Comentario       |\n";
     r += "+--------+-----+-------------------+\n";
-    for (var i in DECODER)
-        r += '|  ' + i + '  |  ' + DECODER[i] + '  |  ' + INFOINST[i] + '  |\n';
-    r += "+--------+-----+-------------------+\n\n";
-    // Programas precargados
-    r += "       Programas precargados:\n";
+    DECODER.forEach (function(value, key) {
+        r += '|  ' + key + '  |  ' + value + '  |  ' + INFOINST.get(key) +  '  |\n';
+    })
     r += "------------------------------------\n";
     for (var i = 0; i < TMT.length; i++)
         r += '&nbsp;<label for="TMT' + i + '">' +
@@ -257,7 +304,7 @@ function changeSpecialContent(to, content) {
 
 function changeDecoder(type) {
     ACTUAL.ALU = type;
-    $('Deco').textContent = DECODER[type];
+    $('Deco').textContent = DECODER.get(type);
 };
 
 function countIncrement() {
