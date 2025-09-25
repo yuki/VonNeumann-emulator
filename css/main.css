@@ -146,7 +146,7 @@ svg #Datos {
 
 #info.fclosed .info_cont,
 #info.closed .info_cont {
-    max-height: 0
+    visibility: hidden;
 }
 
 @media all and (max-width:800px) {
