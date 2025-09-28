@@ -16,12 +16,13 @@ function _c(id) { return parseInt(_s(id).textContent, 2); }
 
 // Lineas de la representación visibles (inicialmente todas)
 var WIRES = [
-    "CPro-RDir", "CProInc", "RDir-TD0", "RDir-TD1", "RDir-TD2",
-    "RDir-TD3", "RDir-TD4", "RDir-TD5", "RDir-TD6", "RDir-TD7",
-    "RDat-TD0", "RDat-TD1", "RDat-TD2", "RDat-TD3", "RDat-TD4",
-    "RDat-TD5", "RDat-TD6", "RDat-TD7", "TD-RDat0", "TD-RDat1",
-    "TD-RDat2", "TD-RDat3", "TD-RDat4", "TD-RDat5", "TD-RDat6",
-    "TD-RDat7", "ALU-Acum", "Acum-RDat", "RDat-RIns", "RDat-REnt",
+    "RDir-TD0", "RDir-TD1", "RDir-TD2", "RDir-TD3", "RDir-TD4", "RDir-TD5", "RDir-TD6", "RDir-TD7", "RDir-TD8",
+    "RDir-TD9", "RDir-TD10", "RDir-TD11", "RDir-TD12", "RDir-TD13", "RDir-TD14", "RDir-TD15",
+    "RDat-TD0", "RDat-TD1", "RDat-TD2", "RDat-TD3", "RDat-TD4", "RDat-TD5", "RDat-TD6", "RDat-TD7", "RDat-TD8",
+    "RDat-TD9", "RDat-TD10", "RDat-TD11", "RDat-TD12", "RDat-TD13", "RDat-TD14", "RDat-TD15",
+    "TD-RDat0", "TD-RDat1", "TD-RDat2", "TD-RDat3", "TD-RDat4", "TD-RDat5", "TD-RDat6", "TD-RDat7", "TD-RDat8",
+    "TD-RDat9", "TD-RDat10", "TD-RDat11", "TD-RDat12", "TD-RDat13", "TD-RDat14", "TD-RDat15",
+    "ALU-Acum", "Acum-RDat", "RDat-RIns", "RDat-REnt", "CPro-RDir", "CProInc",
     "RIns-RDir", "RIns-Deco",
 ];
 var RECORDS = ["RIns", "CPro", "Deco", "REnt", "Acum", "RDir", "RDat"];
