@@ -14,7 +14,8 @@ function _t(id) { return (_s(id).textContent); }
 
 function _c(id) { return parseInt(_s(id).textContent, 2); }
 
-// Lineas de la representación visibles (inicialmente todas)
+// Wires and records that will be used
+// Note: the wires are hidden at the beginning of each step
 var WIRES = [
     "RDir-TD0", "RDir-TD1", "RDir-TD2", "RDir-TD3", "RDir-TD4", "RDir-TD5", "RDir-TD6", "RDir-TD7", "RDir-TD8",
     "RDir-TD9", "RDir-TD10", "RDir-TD11", "RDir-TD12", "RDir-TD13", "RDir-TD14", "RDir-TD15",
@@ -207,9 +208,6 @@ var ABOUT =
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-//addEventListener('load',programSelector,false);
-
-
 function programSelector() {
     var o = $('full_code'),
         r = '';
@@ -229,17 +227,24 @@ function programSelector() {
             TMT[i].tag.replace(/([0-9]+|OVERFLOW)/g, '<span class="c1">$1</span>') + '</label><br>';
     r += "------------------------------------\n";
     r += "              <span class='c2 pointer' id='run'>Ejecutar</span>\n";
+    r += "------------------------------------\n";
+    r += "          <span class='c3 pointer' id='upload'>Upload a program</span>\n";
     o.innerHTML = r;
     $('run').addEventListener('click', runProgram, false);
+    $('upload').addEventListener('click', uploadProgram, false);
 };
 
-function runProgram() {
-    var tmtNumber =
-        function () {
-            for (var i = 0; i < TMT.length; i++)
-                if ($('TMT' + i).checked) return $('TMT' + i).value;
-        };
-    TM = TMT[tmtNumber()].table;
+function runProgram(uploaded = false) {
+    if (uploaded) {
+        TM = JSON.parse(uploaded).table;
+    } else {
+        var tmtNumber =
+            function () {
+                for (var i = 0; i < TMT.length; i++)
+                    if ($('TMT' + i).checked) return $('TMT' + i).value;
+            };
+        TM = TMT[tmtNumber()].table;
+    }
     init(true);
     $('full').style.display = 'none';
     $('info_b_r').addEventListener('click',
@@ -249,6 +254,37 @@ function runProgram() {
     $('info_b_n').addEventListener('click', buttonNextStep, false);
     addEventListener('keypress', keyPress, false);
     resetRecords();
+};
+
+function uploadProgram() {
+    let input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.txt';
+    input.style.display = 'none';
+    document.body.appendChild(input);
+
+    input.addEventListener('change', function (e) {
+        let file = e.target.files[0];
+        if (!file) return;
+        let reader = new FileReader();
+        reader.onload = function (evt) {
+            let content = evt.target.result;
+            let lines = content.split(/\r?\n/);
+            let isValid = lines.every(line => line.trim() === "" || /^[01]+$/.test(line.trim()));
+            if (!isValid) {
+                alert('Error: The file does not contain valid binary code');
+                return;
+            }
+            let table = lines
+                .filter(line => line.trim() !== "")
+                .map(line => [line.trim()]);
+            runProgram(JSON.stringify({ table }));
+        };
+        reader.readAsText(file);
+    });
+
+    input.click();
+    document.body.removeChild(input);
 };
 
 function init(next) {
