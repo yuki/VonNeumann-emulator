@@ -4,6 +4,8 @@ Este proyecto simula la [arquitectura Von Neumann](https://es.wikipedia.org/wiki
 
 El proyecto original fue creado por [Pedro Guitérrez](https://xitrus.es/VonNeumann/), al que he realizado modificaciones, ampliado el set de instrucciones, añadido nuevos ejemplos y reordenando el interaz visual.
 
+Para poder usar el simulador puedes ir a [https://yuki.github.io/VonNeumann-emulator/]()
+
 
 # ¿Cómo funciona?
 
@@ -42,3 +44,21 @@ Nuestra CPU es capaz de realizar 16 instrucciones (la última no se ha añadido 
 # Ejemplos
 
 La simulación cuenta con varios programas de ejemplo para poder ser utilizados y ver cómo funcionan las distintas instrucciones.
+
+
+# ¡Sube tu programa!
+
+Se ha añadido la posibilidad de subir un programa propio creado en binario. Tiene que ser un fichero en modo texto, y cada línea debe contener la instrucción correspondiente, con un máximo de 16 instrucciones.
+
+Ejemplo de fichero.txt:
+
+```
+00000100
+00000101
+01100111
+01110000
+00000101
+00001011
+00000000
+00000000
+```
