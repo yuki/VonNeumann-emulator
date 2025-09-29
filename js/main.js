@@ -235,7 +235,7 @@ function programSelector() {
 };
 
 function runProgram(uploaded = false) {
-    if (uploaded) {
+    if (uploaded.isValid === false) {
         TM = JSON.parse(uploaded).table;
     } else {
         var tmtNumber =
