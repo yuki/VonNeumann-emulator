@@ -3,41 +3,103 @@
    version="1.1"
    x="0px"
    y="0px"
-   viewBox="0 0 800 800"
+   viewBox="0 0 800 600"
    enable-background="new 0 0 800 600"
    xml:space="preserve"
    id="svg130"
    width="800"
-   height="800"
+   height="600"
+   sodipodi:docname="vonneumann.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="1.4354285"
+   inkscape:cx="403.36386"
+   inkscape:cy="270.99921"
+   inkscape:window-width="1800"
+   inkscape:window-height="1097"
+   inkscape:window-x="0"
+   inkscape:window-y="44"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g11"
+   showgrid="true"><inkscape:grid
+     id="grid1"
+     units="px"
+     originx="0"
+     originy="0"
+     spacingx="1"
+     spacingy="1"
+     empcolor="#0099e5"
+     empopacity="0.30196078"
+     color="#0099e5"
+     opacity="0.14901961"
+     empspacing="5"
+     enabled="true"
+     visible="true" /></sodipodi:namedview><defs
    id="defs130"><clipPath
-     clipPathUnits="userSpaceOnUse"
-     id="clipPath2"><path
-       d="M -2,-2 H 118 V 358 H -2 Z"
-       id="path2-3" /></clipPath><clipPath
-     clipPathUnits="userSpaceOnUse"
-     id="clipPath4"><path
-       d="M -2,-2 H 118 V 358 H -2 Z"
-       id="path4" /></clipPath><clipPath
-     clipPathUnits="userSpaceOnUse"
-     id="clipPath6"><path
-       d="M -2,-2 H 118 V 358 H -2 Z"
-       id="path6" /></clipPath><clipPath
-     clipPathUnits="userSpaceOnUse"
-     id="clipPath8"><path
-       d="M -2,-2 H 118 V 358 H -2 Z"
-       id="path8" /></clipPath><clipPath
-     clipPathUnits="userSpaceOnUse"
-     id="clipPath10"><path
-       d="M -2,-2 H 118 V 358 H -2 Z"
-       transform="translate(-7,-13.876465)"
-       id="path10" /></clipPath></defs>
+   clipPathUnits="userSpaceOnUse"
+   id="clipPath2"><path
+     d="M -2,-2 H 118 V 358 H -2 Z"
+     id="path2-3" /></clipPath><clipPath
+   clipPathUnits="userSpaceOnUse"
+   id="clipPath4"><path
+     d="M -2,-2 H 118 V 358 H -2 Z"
+     id="path4" /></clipPath><clipPath
+   clipPathUnits="userSpaceOnUse"
+   id="clipPath6"><path
+     d="M -2,-2 H 118 V 358 H -2 Z"
+     id="path6" /></clipPath><clipPath
+   clipPathUnits="userSpaceOnUse"
+   id="clipPath8"><path
+     d="M -2,-2 H 118 V 358 H -2 Z"
+     id="path8" /></clipPath><clipPath
+   clipPathUnits="userSpaceOnUse"
+   id="clipPath10"><path
+     d="M -2,-2 H 118 V 358 H -2 Z"
+     transform="translate(-7,-13.876465)"
+     id="path10" /></clipPath>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </defs>
+    
     <g
-   id="Unidad_de_control"
-   style="display:inline">
+   id="g11"
+   inkscape:label="CPU"
+   style="display:inline"><text
+     font-size="12"
+     id="text15-6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     x="462.82812"
+     y="509.78906">CPU</text><rect
+     style="display:inline;fill:#ffd5d5;fill-opacity:1;stroke:#666666;stroke-width:1.99438;stroke-dasharray:none;stroke-opacity:1"
+     id="rect4"
+     width="328.97751"
+     height="456.02951"
+     x="458.60181"
+     y="33.970501" /><g
+     id="Unidad_de_control"
+     style="display:inline"
+     transform="translate(387.68125,10)">
         <g
-   id="g1">
+   id="g1"
+   transform="matrix(0.85053345,0,0,1,56.797289,0)">
             <rect
    x="40"
    y="41"
@@ -51,9 +113,11 @@
    id="path1" />
         </g>
         <g
-   id="g3">
+   id="g3"
+   transform="translate(196.67849,-18.197225)">
             <g
-   id="g2">
+   id="g2"
+   transform="translate(5.64026,13.697225)">
                 <rect
    x="79"
    y="80"
@@ -70,16 +134,15 @@
    font-size="12"
    id="text2"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-   x="63.570297"
-   y="154.3569">Decodificador</text>
-        <path
-   style="fill:#2d366c;stroke-width:56.5553"
-   d="m 126.25682,153.37667 c 0.008,-1.64599 0.16152,-2.23126 0.34048,-1.30059 0.17896,0.93067 0.17217,2.27739 -0.0151,2.99272 -0.18726,0.71532 -0.33368,-0.0461 -0.32538,-1.69213 z"
-   id="path130" /></g>
+   x="69.415649"
+   y="86.61129">Decodificador</text>
+        </g>
         <g
-   id="g5">
+   id="g5"
+   transform="translate(-114.61831,4.9752663)">
             <g
-   id="g4">
+   id="g4"
+   transform="translate(0,-4.9752663)">
                 <rect
    x="240"
    y="81"
@@ -93,13 +156,15 @@
    id="path3" />
             </g>
             <text
-   transform="translate(247.2368,112.6904)"
    font-size="12"
    id="text4"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Cont. Programa</text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   x="241.19292"
+   y="63.450516">Cont. Programa</text>
         </g>
         <g
-   id="g7">
+   id="g7"
+   transform="translate(-115.56745,11.030336)">
             <g
    id="g6">
                 <rect
@@ -122,16 +187,18 @@
    y="172.6904">R. Instrucciones</text>
         </g>
         <text
-   transform="translate(40,35.9897)"
    font-size="12"
    id="text7"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Unidad de control</text>
-    </g>
-    <g
-   id="ALU"
-   style="display:inline">
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   x="100.822"
+   y="229.80664">Unidad de control</text>
+    </g><g
+     id="ALU"
+     style="display:inline"
+     transform="translate(7.4396649,224.29007)">
         <g
-   id="g8">
+   id="g8"
+   transform="matrix(0.8491124,0,0,0.97469664,114.67458,16.722061)">
             <rect
    x="420"
    y="41"
@@ -145,17 +212,19 @@
    id="path7" />
         </g>
         <text
-   transform="translate(420,35.9897)"
    font-size="12"
    id="text8"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Unidad aritmético-lógica (ALU)</text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   x="481.0636"
+   y="240.80165">Unidad aritmético-lógica (ALU)</text>
+        
+        
         <g
-   display="none"
-   id="g9" />
-        <g
-   id="g11">
-            <g
-   id="g10">
+   id="g9"
+   transform="translate(-1.7020975,-69.298129)"><g
+     id="g10"
+     transform="translate(-28.956114,-29.887365)"
+     style="display:inline">
                 <rect
    x="550"
    y="191"
@@ -167,17 +236,20 @@
    fill="#7ac943"
    d="m 629,191 v 18 h -78 v -18 h 78 m 1,-1 h -80 v 20 h 80 z"
    id="path9" />
-            </g>
-            <text
-   transform="translate(556.7168,185.667)"
-   font-size="12"
-   id="text10"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Acumulador</text>
-        </g>
-        <g
-   id="g13">
-            <g
-   id="g12">
+            </g><text
+     font-size="12"
+     id="text10"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline"
+     x="525.44232"
+     y="154.88594">Acumulador</text><text
+     font-size="12"
+     id="text12"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline"
+     x="637.58594"
+     y="154.88594">R. Entrada</text><g
+     id="g12"
+     transform="translate(-16.337899,-29.88736)"
+     style="display:inline">
                 <rect
    x="650"
    y="191"
@@ -189,31 +261,28 @@
    fill="#7ac943"
    d="m 729,191 v 18 h -78 v -18 h 78 m 1,-1 h -80 v 20 h 80 z"
    id="path11" />
-            </g>
-            <text
-   font-size="12"
-   id="text12"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-   x="653.82617"
-   y="185.66701">R. Entrada</text>
-        </g>
+            </g></g>
         <g
-   id="g14">
+   id="g14"
+   transform="matrix(1,0,0,-1,12.132166,262.19142)">
             <polygon
    fill="#b6e696"
-   points="640,148.859 629.688,170 550.754,170 580.331,99.877 699.669,100.748 729.243,170 650.313,170 "
-   id="polygon13" />
+   points="729.243,170 650.313,170 640,148.859 629.688,170 550.754,170 580.331,99.877 699.669,100.748 "
+   id="polygon13"
+   transform="translate(-36.481269,-30.78107)" />
             <path
    fill="#7ac943"
-   d="m 580.661,100.63 118.677,0.99 29.147,68.38 h -77.86 l -9.727,-20.188 -0.898,-1.968 -0.898,2.03 -9.727,20.126 h -77.868 l 29.154,-69.37 M 580,99.625 550,171 h 80 l 10,-20.5 10,20.5 h 80 l -30,-70.375 z"
+   d="m 544.17973,69.84893 118.677,0.99 29.147,68.38 h -77.86 l -9.727,-20.188 -0.898,-1.968 -0.898,2.03 -9.727,20.126 h -77.868 l 29.154,-69.37 m -0.661,-1.005 -30,71.375 h 80 l 10,-20.5 10,20.5 h 80 l -30,-70.375 z"
    id="path13" />
         </g>
-    </g>
+    </g></g>
     <g
-   id="Memoria">
+   id="Memoria"
+   transform="translate(-190.08669,-248.53582)"
+   style="display:inline">
         <g
    id="g15"
-   transform="matrix(1.000094,0,0,0.92990534,-0.03756635,21.080673)">
+   transform="matrix(1.0015567,0,0,0.95654208,-0.33749156,11.088379)">
             <rect
    x="210"
    y="301"
@@ -225,10 +294,11 @@
             
         </g>
         <text
-   transform="translate(210.5,296.4995)"
    font-size="12"
    id="text15"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Memoria</text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   x="213.74294"
+   y="758.32489">Memoria</text>
         <g
    display="inline"
    id="g17">
@@ -240,7 +310,8 @@
         <g
    id="g29">
             <g
-   id="g28">
+   id="g28"
+   transform="translate(0.08669,-1.46418)">
                 <rect
    x="230"
    y="341"
@@ -258,10 +329,11 @@
    id="text29"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
    x="225.02879"
-   y="336.6904">R. Direcciones</text>
+   y="326.94989">R. Direcciones</text>
         </g>
         <g
-   id="g31">
+   id="g31"
+   transform="translate(0.08669,-1.46418)">
             <g
    id="g30">
                 <rect
@@ -280,8 +352,8 @@
    font-size="12"
    id="text30"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-   x="498.71481"
-   y="336.6904">R. Datos</text>
+   x="498.70898"
+   y="328.26758">R. Datos</text>
         </g>
         <text
    font-size="12"
@@ -491,888 +563,831 @@
    y="395.61719">0000</text>
         </g>
     </g>
+    
     <g
-   id="Flechas_-_Sub_1_"
-   style="display:inline">
+   id="Flechas-3"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   inkscape:label="Flechas-gris">
         <g
-   id="g32">
-            <polygon
-   fill="#cccccc"
-   points="196,271 196,349 220,349 220,351 194,351 194,269 364,269 364,91 350,91 350,89 366,89 366,271 "
-   id="polygon31" />
+   id="CPro-RDir-5"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+            <path
+   id="polyline99-0"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="M 505,100 H 430 V 34 H 210 85 v 26"
+   sodipodi:nodetypes="cccccc" />
+            <path
+   id="polygon99-2"
+   d="m 88.535,60 h -7.07 L 85,63.536 Z"
+   sodipodi:nodetypes="cccc"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+        </g><g
+   id="RIns-RDir-3"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   inkscape:label="RIns-RDir">
+            <path
+   id="polyline99-6-2"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="M 496.465,170 H 430 V 34 H 210 85 v 26"
+   sodipodi:nodetypes="cccccc" />
+            <path
+   id="polygon99-7-7"
+   d="m 88.535,60 h -7.07 L 85,63.536 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
         </g>
         <g
-   id="g33">
-            <polygon
-   fill="#cccccc"
-   points="223.536,350 220,346.465 220,353.535 "
-   id="polygon32" />
-        </g>
-        <g
-   id="g34">
-            <polygon
-   fill="#cccccc"
-   points="233.536,90 230,86.464 230,93.536 "
-   id="polygon33" />
-        </g>
-        <g
-   id="g35">
-            <polygon
-   fill="#cccccc"
-   points="214,91 214,64 366,64 366,91 350,91 350,89 364,89 364,66 216,66 216,89 230,89 230,91 "
-   id="polygon34" />
-        </g>
-        <g
-   id="g38">
+   id="CProInc-1"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   transform="translate(271.80873,14.602326)">
+            <path
+   id="polygon100-0"
+   d="m 349.1738,96.46932 v -7.072 l -3.536,3.536 z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            <path
+   id="polyline100-0"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="M 352.87426,82.557732 H 365 V 69.504531 H 215 v 13.053201 h 9.37239"
+   transform="matrix(0.90271058,0,0,-1.0038426,30.630473,175.82847)"
+   sodipodi:nodetypes="cccccc" />
             <g
-   id="g36">
-                <rect
-   x="282"
-   y="58"
-   fill="#cccccc"
-   width="15"
-   height="15"
-   id="rect35" />
-            </g>
-            <g
-   id="g37">
-                <path
-   fill="#cccccc"
+   id="g101-9"
+   transform="translate(0.62462548,41.235462)"
+   style="stroke:#cccccc;stroke-opacity:1">
+                <g
+   id="g100-7"
+   style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-opacity:1">
+                    <path
+   id="rect100-1"
+   style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-opacity:1"
+   d="m 282,58 h 15 v 15 h -15 z" />
+                    <path
    d="M 297,58 V 72 H 283 V 58 h 14 m 1,-1 h -16 v 16 h 16 z"
-   id="path36" />
+   id="path100-7"
+   style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-opacity:1" />
+                </g>
+                
             </g>
         </g>
         <g
-   id="g39">
-            <path
-   fill="#cccccc"
-   d="m 287.844,62.711 v 2.255 h 2.169 v 0.576 h -2.169 v 2.275 h -0.614 v -2.275 h -2.169 v -0.576 h 2.169 v -2.255 z"
-   id="path38" />
-            <path
-   fill="#cccccc"
-   d="m 292.664,62.365 h -0.019 l -1.085,0.585 -0.163,-0.643 1.363,-0.729 h 0.72 v 6.239 h -0.816 z"
-   id="path39" />
-        </g>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <g
-   id="g88">
-            <polygon
-   fill="#cccccc"
-   points="540,199 540,201 491,201 491,330 489,330 489,199 "
-   id="polygon87" />
-        </g>
-        <g
-   id="g89">
-            <polygon
-   fill="#cccccc"
-   points="489.535,333.535 486,330 493.07,330 "
-   id="polygon88" />
-        </g>
-        <g
-   id="g90">
-            <polygon
-   fill="#cccccc"
-   points="489,330 489,271 384,271 384,151 350,151 350,149 386,149 386,269 491,269 491,330 "
-   id="polygon89">
-            </polygon>
-        </g>
-        <g
-   id="g91">
-            <polygon
-   fill="#cccccc"
-   points="346.465,150 350,146.465 350,153.535 "
-   id="polygon90" />
-        </g>
-        <g
-   id="g92">
-            <polygon
-   fill="#cccccc"
-   points="689,349 689,220 691,220 691,351 580,351 580,349 "
-   id="polygon91" />
-        </g>
-        <g
-   id="g93">
-            <polygon
-   fill="#cccccc"
-   points="690,216.465 693.535,220 686.465,220 "
-   id="polygon92" />
-        </g>
-        <g
-   id="g94">
-            <polygon
-   fill="#cccccc"
-   points="196,151 196,349 220,349 220,351 194,351 194,149 230,149 230,151 "
-   id="polygon93" />
-        </g>
-        <g
-   id="g95">
-            <polygon
-   fill="#cccccc"
-   points="223.536,350 220,346.465 220,353.535 "
-   id="polygon94" />
-        </g>
-        <g
-   id="g96">
-            <polygon
-   fill="#cccccc"
-   points="196,109 196,149 230,149 230,151 194,151 194,111 150,111 150,109 "
-   id="polygon95" />
-        </g>
-        <g
-   id="g97">
-            <polygon
-   fill="#cccccc"
-   points="146.465,110 150,106.465 150,113.535 "
-   id="polygon96" />
-        </g>
-        <g
-   id="g98">
-            <polygon
-   fill="#cccccc"
-   points="489,201 489,79 641,79 641,90 639,90 639,81 491,81 491,199 540,199 540,201 "
-   id="polygon97" />
-        </g>
-        <g
-   id="g99">
-            <polygon
-   fill="#cccccc"
-   points="543.535,200 540,196.465 540,203.535 "
-   id="polygon98" />
-        </g>
-    <g
-   id="RDir-TD-4"
-   style="display:inline">
+   id="RDir-TD-5"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   transform="translate(-191.5,-248)">
             <g
    id="RDir-TD15-1"
    transform="translate(0,178)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline101-6-2"
-   style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   id="polyline101-6-7"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,192 v 338 h 55" />
                 <path
    id="polygon101-2-8"
    d="M 333.536,530 330,526.465 v 7.07 z"
-   style="fill:#cccccc;fill-opacity:1" />
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
-   id="RDir-TD14-8"
+   id="RDir-TD14-2"
    transform="translate(0,178)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline102-4-9"
+   id="polyline102-4-5"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,192 v 318 h 55" />
-                <polygon
-   points="330,513.535 333.536,510 330,506.465 "
-   id="polygon102-7-2"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="RDir-TD13-8"
-   transform="translate(0,176)"
-   style="display:inline">
                 <path
-   id="polyline103-4-8"
+   id="polygon102-7-4"
+   d="m 330,506.465 v 7.07 L 333.536,510 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="RDir-TD13-5"
+   transform="translate(0,176)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline103-4-3"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,194 v 296 h 55" />
-                <polygon
-   points="330,486.465 330,493.535 333.536,490 "
-   id="polygon103-0-8"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="RDir-TD12-6"
-   transform="translate(0,174)"
-   style="display:inline">
                 <path
-   id="polyline104-2-8"
+   id="polygon103-0-0"
+   d="M 333.536,490 330,486.465 v 7.07 z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="RDir-TD12-1"
+   transform="translate(0,174)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline104-2-9"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 274 h 55" />
-                <polygon
-   points="330,473.535 333.536,470 330,466.465 "
-   id="polygon104-9-3"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="RDir-TD11-8"
-   transform="translate(0,174)"
-   style="display:inline">
                 <path
-   id="polyline105-0-3"
+   id="polygon104-9-4"
+   d="m 330,466.465 v 7.07 L 333.536,470 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="RDir-TD11-5"
+   transform="translate(0,174)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline105-0-9"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 254 h 55" />
-                <polygon
-   points="330,446.465 330,453.535 333.536,450 "
+                <path
    id="polygon105-8-3"
-   style="fill:#cccccc;fill-opacity:1" />
+   d="M 333.536,450 330,446.465 v 7.07 z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
-   id="RDir-TD10-3"
-   style="display:inline"
+   id="RDir-TD10-9"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
    transform="translate(0,168)">
                 <path
-   id="polyline106-3-8"
+   id="polyline106-3-6"
    transform="translate(0,6)"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 234 h 55" />
-                <polygon
-   points="333.536,430 330,426.465 330,433.535 "
-   id="polygon106-1-0"
+                <path
+   id="polygon106-1-6"
    transform="translate(0,6)"
-   style="fill:#cccccc;fill-opacity:1" />
+   d="M 330,433.535 333.536,430 330,426.465 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
    id="RDir-TD9-4"
    transform="translate(0,174)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline107-0-7"
+   id="polyline107-0-0"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 214 h 55" />
-                <polygon
-   points="330,413.535 333.536,410 330,406.465 "
-   id="polygon107-3-6"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="RDir-TD8-8"
-   transform="translate(0,174)"
-   style="display:inline">
                 <path
-   id="polyline108-0-9"
+   id="polygon107-3-82"
+   d="m 330,406.465 v 7.07 L 333.536,410 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="RDir-TD8-0"
+   transform="translate(0,174)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline108-0-6"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 194 h 55" />
-                <polygon
-   points="333.536,390 330,386.465 330,393.535 "
-   id="polygon108-3-0"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="RDir-TD7-6"
-   transform="translate(0,10)"
-   style="display:inline">
                 <path
-   id="polyline101-8"
+   id="polygon108-3-0"
+   d="M 330,393.535 333.536,390 330,386.465 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="RDir-TD7-7"
+   transform="translate(0,10)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline101-2"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,360 v 170 h 55" />
                 <path
-   id="polygon101-79"
+   id="polygon101-9"
    d="M 333.536,530 330,526.465 v 7.07 z"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g>
-            <g
-   id="RDir-TD6-0"
-   transform="translate(0,10)"
-   style="display:inline">
-                <path
-   id="polyline102-33"
-   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
-   d="m 275,360 v 150 h 55" />
-                <polygon
-   points="333.536,510 330,506.465 330,513.535 "
-   id="polygon102-3"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g>
-            <g
-   id="RDir-TD5-7"
-   transform="translate(0,8)"
-   style="display:inline">
-                <path
-   id="polyline103-326"
-   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
-   d="m 275,362 v 128 h 55" />
-                <polygon
-   points="330,493.535 333.536,490 330,486.465 "
-   id="polygon103-5"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g>
-            <g
-   id="RDir-TD4-2"
-   transform="translate(0,6)"
-   style="display:inline">
-                <path
-   id="polyline104-6"
-   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
-   d="m 275,364 v 106 h 55" />
-                <polygon
-   points="333.536,470 330,466.465 330,473.535 "
-   id="polygon104-5"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g>
-            <g
-   id="RDir-TD3-8"
-   transform="translate(0,6)"
-   style="display:inline">
-                <path
-   id="polyline105-7"
-   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
-   d="m 275,364 v 86 h 55" />
-                <polygon
-   points="330,453.535 333.536,450 330,446.465 "
-   id="polygon105-9"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="RDir-TD2-6"
-   style="display:inline">
+   id="RDir-TD6-8"
+   transform="translate(0,10)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline102-1"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="m 275,360 v 150 h 55" />
+                <path
+   id="polygon102-1"
+   d="M 330,513.535 333.536,510 330,506.465 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g>
+            <g
+   id="RDir-TD5-6"
+   transform="translate(0,8)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline103-1"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="m 275,362 v 128 h 55" />
+                <path
+   id="polygon103-1"
+   d="m 330,486.465 v 7.07 L 333.536,490 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g>
+            <g
+   id="RDir-TD4-8"
+   transform="translate(0,6)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline104-1"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="m 275,364 v 106 h 55" />
+                <path
+   id="polygon104-1"
+   d="M 330,473.535 333.536,470 330,466.465 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g>
+            <g
+   id="RDir-TD3-5"
+   transform="translate(0,6)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline105-00"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="m 275,364 v 86 h 55" />
+                <path
+   id="polygon105-83"
+   d="m 330,446.465 v 7.07 L 333.536,450 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g>
+            <g
+   id="RDir-TD2-7"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
    id="polyline106-0"
    transform="translate(0,6)"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,364 v 66 h 55" />
-                <polygon
-   points="330,426.465 330,433.535 333.536,430 "
-   id="polygon106-4"
+                <path
+   id="polygon106-13"
    transform="translate(0,6)"
+   d="M 333.536,430 330,426.465 v 7.07 z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="RDir-TD1-1"
+   id="RDir-TD1-4"
    transform="translate(0,6)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline107-04"
+   id="polyline107-3"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,364 v 46 h 55" />
-                <polygon
-   points="330,406.465 330,413.535 333.536,410 "
-   id="polygon107-87"
+                <path
+   id="polygon107-7"
+   d="M 333.536,410 330,406.465 v 7.07 z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="RDir-TD0-0"
+   id="RDir-TD0-7"
    transform="translate(0,6)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline108-86"
+   id="polyline108-5"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,364 v 26 h 55" />
-                <polygon
-   points="333.536,390 330,386.465 330,393.535 "
-   id="polygon108-2"
+                <path
+   id="polygon108-1"
+   d="M 330,393.535 333.536,390 330,386.465 Z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
         </g><g
-   id="RDir-TD-9-4"
-   style="display:inline"
-   transform="matrix(-1,0,0,1,800,-1)">
+   id="RDir-TD-9-2"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   transform="matrix(-1,0,0,1,614,-249)">
             <g
-   id="RDat-TD15-7"
+   id="RDat-TD15-6"
    transform="translate(0,179)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline101-6-9-9"
+   id="polyline101-6-9-6"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,192 v 338 h 55" />
                 <path
-   id="polygon101-2-3-3"
+   id="polygon101-2-3-5"
    d="M 333.536,530 330,526.465 v 7.07 z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
-   id="RDat-TD14-9"
+   id="RDat-TD14-4"
    transform="translate(0,179)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline102-4-8-2"
+   id="polyline102-4-8-1"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,192 v 318 h 55" />
-                <polygon
-   points="330,506.465 330,513.535 333.536,510 "
-   id="polygon102-7-0-8"
+                <path
+   id="polygon102-7-0-7"
+   d="M 330,513.535 333.536,510 330,506.465 Z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
-   id="RDat-TD13-3"
+   id="RDat-TD13-1"
    transform="translate(0,177)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline103-4-6-0"
+   id="polyline103-4-6-3"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,194 v 296 h 55" />
-                <polygon
-   points="333.536,490 330,486.465 330,493.535 "
-   id="polygon103-0-6-1"
+                <path
+   id="polygon103-0-6-4"
+   d="m 330,486.465 v 7.07 L 333.536,490 Z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
-   id="RDat-TD12-7"
+   id="RDat-TD12-8"
    transform="translate(0,175)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline104-2-0-8"
+   id="polyline104-2-0-6"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 274 h 55" />
-                <polygon
-   points="330,466.465 330,473.535 333.536,470 "
-   id="polygon104-9-0-9"
+                <path
+   id="polygon104-9-0-1"
+   d="M 330,473.535 333.536,470 330,466.465 Z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
-   id="RDat-TD11-1"
+   id="RDat-TD11-5"
    transform="translate(0,175)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline105-0-6-5"
+   id="polyline105-0-6-0"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 254 h 55" />
-                <polygon
-   points="333.536,450 330,446.465 330,453.535 "
-   id="polygon105-8-2-4"
+                <path
+   id="polygon105-8-2-6"
+   d="m 330,446.465 v 7.07 L 333.536,450 Z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
-   id="RDat-TD10-9"
-   style="display:inline"
+   id="RDat-TD10-5"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
    transform="translate(0,169)">
                 <path
-   id="polyline106-3-7-2"
+   id="polyline106-3-7-3"
    transform="translate(0,6)"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 234 h 55" />
-                <polygon
-   points="330,433.535 333.536,430 330,426.465 "
-   id="polygon106-1-5-5"
+                <path
+   id="polygon106-1-5-1"
    transform="translate(0,6)"
+   d="M 333.536,430 330,426.465 v 7.07 z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
-   id="RDat-TD9-7"
+   id="RDat-TD9-0"
    transform="translate(0,175)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline107-0-9-4"
+   id="polyline107-0-9-1"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 214 h 55" />
-                <polygon
-   points="330,406.465 330,413.535 333.536,410 "
+                <path
    id="polygon107-3-8-9"
+   d="M 330,413.535 333.536,410 330,406.465 Z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
-   id="RDat-TD8-9"
+   id="RDat-TD8-5"
    transform="translate(0,175)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline108-0-2-4"
+   id="polyline108-0-2-7"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 194 h 55" />
-                <polygon
-   points="330,393.535 333.536,390 330,386.465 "
-   id="polygon108-3-8-5"
+                <path
+   id="polygon108-3-8-6"
+   d="M 333.536,390 330,386.465 v 7.07 z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
-   id="RDat-TD7-9"
+   id="RDat-TD7-8"
    transform="translate(0,11)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline101-99-3"
+   id="polyline101-99-5"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,360 v 170 h 55" />
                 <path
-   id="polygon101-6-5"
+   id="polygon101-6-4"
    d="M 333.536,530 330,526.465 v 7.07 z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
    id="RDat-TD6-7"
    transform="translate(0,10)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline102-2-0"
+   id="polyline102-2-9"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,361 v 149 h 55" />
-                <polygon
-   points="330,506.465 330,513.535 333.536,510 "
-   id="polygon102-76-8"
+                <path
+   id="polygon102-76-6"
+   d="M 330,513.535 333.536,510 330,506.465 Z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="RDat-TD5-1"
+   id="RDat-TD5-6"
    transform="translate(0,8)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline103-32-9"
+   id="polyline103-32-6"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,363 v 127 h 55" />
-                <polygon
-   points="333.536,490 330,486.465 330,493.535 "
-   id="polygon103-15-9"
+                <path
+   id="polygon103-15-6"
+   d="m 330,486.465 v 7.07 L 333.536,490 Z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
    id="RDat-TD4-7"
    transform="translate(0,6)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline104-91-8"
+   id="polyline104-91-0"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,365 v 105 h 55" />
-                <polygon
-   points="330,466.465 330,473.535 333.536,470 "
-   id="polygon104-4-2"
+                <path
+   id="polygon104-4-4"
+   d="M 330,473.535 333.536,470 330,466.465 Z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="RDat-TD3-5"
+   id="RDat-TD3-1"
    transform="translate(0,6)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline105-07-3"
+   id="polyline105-07-0"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,365 v 85 h 55" />
-                <polygon
-   points="333.536,450 330,446.465 330,453.535 "
-   id="polygon105-5-4"
+                <path
+   id="polygon105-5-8"
+   d="m 330,446.465 v 7.07 L 333.536,450 Z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="RDat-TD2-9"
-   style="display:inline">
+   id="RDat-TD2-1"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline106-7-0"
+   id="polyline106-7-4"
    transform="translate(0,6)"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,365 v 65 h 55" />
-                <polygon
-   points="330,433.535 333.536,430 330,426.465 "
-   id="polygon106-0-2"
+                <path
+   id="polygon106-0-8"
    transform="translate(0,6)"
+   d="M 333.536,430 330,426.465 v 7.07 z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="RDat-TD1-0"
+   id="RDat-TD1-8"
    transform="translate(0,6)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline107-8-1"
+   id="polyline107-8-4"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,365 v 45 h 55" />
-                <polygon
-   points="330,413.535 333.536,410 330,406.465 "
-   id="polygon107-0-96"
+                <path
+   id="polygon107-0-5"
+   d="M 333.536,410 330,406.465 v 7.07 z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="RDat-TD0-2"
+   id="RDat-TD0-7"
    transform="translate(0,6)"
-   style="display:inline">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline108-9-1"
+   id="polyline108-9-9"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,365 c 0,8.66667 0,16.33333 0,25 h 55" />
-                <polygon
-   points="330,393.535 333.536,390 330,386.465 "
-   id="polygon108-6-20"
+                <path
+   id="polygon108-6-8"
+   d="M 333.536,390 330,386.465 v 7.07 z"
    style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
         </g><g
-   id="RDir-TD-9-0-7"
-   style="display:inline"
-   transform="matrix(-1,0,0,1,1215,39)">
+   id="RDir-TD-9-0-4"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   transform="matrix(-1,0,0,1,614,-249)">
             <g
-   id="TD-RDat15-3"
-   transform="translate(415,139)"
-   style="display:inline">
+   id="TD-RDat15-5"
+   transform="translate(0,179)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline101-6-9-2-1"
+   id="polyline101-6-9-2-8"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,192 v 338 h 55" />
                 <path
-   id="polygon101-2-3-2-1"
+   id="polygon101-2-3-2-8"
    d="M 275,188.464 271.465,192 h 7.07 z"
-   style="fill:#cccccc;fill-opacity:1" />
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g><g
    id="TD-RDat14-9"
-   transform="translate(415,139)"
-   style="display:inline">
+   transform="translate(0,179)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline102-4-8-0-0"
+   id="polyline102-4-8-0-4"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,192 v 318 h 55" />
-                <polygon
-   points="330,513.535 333.536,510 330,506.465 "
-   id="polygon102-7-0-5-5"
-   transform="rotate(-90,143.5,378.5)"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="TD-RDat13-6"
-   transform="translate(415,137)"
-   style="display:inline">
                 <path
-   id="polyline103-4-6-2-7"
+   id="polygon102-7-0-5-7"
+   d="m 271.465,192 h 7.07 L 275,188.464 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="TD-RDat13-0"
+   transform="translate(0,177)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline103-4-6-2-4"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,194 v 296 h 55" />
-                <polygon
-   points="330,486.465 330,493.535 333.536,490 "
-   id="polygon103-0-6-9-7"
-   transform="rotate(-90,154.5,369.5)"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="TD-RDat12-4"
-   transform="translate(415,135)"
-   style="display:inline">
                 <path
-   id="polyline104-2-0-2-0"
+   id="polygon103-0-6-9-0"
+   d="M 275,190.464 271.465,194 h 7.07 z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="TD-RDat12-6"
+   transform="translate(0,175)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline104-2-0-2-5"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 274 h 55" />
-                <polygon
-   points="330,473.535 333.536,470 330,466.465 "
-   id="polygon104-9-0-8-6"
-   transform="rotate(-90,165.5,360.5)"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="TD-RDat11-4"
-   transform="translate(415,135)"
-   style="display:inline">
                 <path
-   id="polyline105-0-6-8-7"
+   id="polygon104-9-0-8-3"
+   d="m 271.465,196 h 7.07 L 275,192.464 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="TD-RDat11-8"
+   transform="translate(0,175)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline105-0-6-8-5"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 254 h 55" />
-                <polygon
-   points="330,446.465 330,453.535 333.536,450 "
-   id="polygon105-8-2-0-4"
-   transform="rotate(-90,175.5,350.5)"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="TD-RDat10-8"
-   style="display:inline"
-   transform="translate(415,129)">
                 <path
-   id="polyline106-3-7-0-5"
+   id="polygon105-8-2-0-1"
+   d="M 275,192.464 271.465,196 h 7.07 z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="TD-RDat10-2"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   transform="translate(0,169)">
+                <path
+   id="polyline106-3-7-0-4"
    transform="translate(0,6)"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 234 h 55" />
-                <polygon
-   points="333.536,430 330,426.465 330,433.535 "
-   id="polygon106-1-5-9-8"
-   transform="rotate(-90,188.5,343.5)"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="TD-RDat9-2"
-   transform="translate(415,135)"
-   style="display:inline">
                 <path
-   id="polyline107-0-9-9-6"
+   id="polygon106-1-5-9-6"
+   d="M 278.535,202 275,198.464 271.465,202 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="TD-RDat9-7"
+   transform="translate(0,175)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline107-0-9-9-5"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 214 h 55" />
-                <polygon
-   points="330,413.535 333.536,410 330,406.465 "
-   id="polygon107-3-8-6-0"
-   transform="rotate(-90,195.5,330.5)"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="TD-RDat8-6"
-   transform="translate(415,135)"
-   style="display:inline">
                 <path
-   id="polyline108-0-2-5-6"
+   id="polygon107-3-8-6-5"
+   d="m 271.465,196 h 7.07 L 275,192.464 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="TD-RDat8-0"
+   transform="translate(0,175)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline108-0-2-5-5"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,196 v 194 h 55" />
-                <polygon
-   points="333.536,390 330,386.465 330,393.535 "
-   id="polygon108-3-8-4-4"
-   transform="rotate(-90,205.5,320.5)"
-   style="fill:#cccccc;fill-opacity:1" />
-            </g><g
-   id="TD-RDat7-6"
-   transform="translate(415,-29)"
-   style="display:inline">
                 <path
-   id="polyline101-99-9-2"
+   id="polygon108-3-8-4-2"
+   d="M 278.535,196 275,192.464 271.465,196 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+            </g><g
+   id="TD-RDat7-0"
+   transform="translate(0,11)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+                <path
+   id="polyline101-99-9-7"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,360 v 170 h 55" />
                 <path
-   id="polygon101-6-9-8"
+   id="polygon101-6-9-7"
    d="M 275,356.464 271.465,360 h 7.07 z"
-   style="fill:#cccccc;fill-opacity:1" />
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
    id="TD-RDat6-9"
-   transform="translate(415,-30)"
-   style="display:inline">
+   transform="translate(0,10)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline102-2-6-6"
+   id="polyline102-2-6-7"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,361 v 149 h 55" />
-                <polygon
-   points="330,513.535 333.536,510 330,506.465 "
-   id="polygon102-76-0-0"
-   transform="rotate(-90,228,463)"
-   style="fill:#cccccc;fill-opacity:1" />
+                <path
+   id="polygon102-76-0-5"
+   d="m 271.465,361 h 7.07 L 275,357.464 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="TD-RDat5-7"
-   transform="translate(415,-32)"
-   style="display:inline">
+   id="TD-RDat5-3"
+   transform="translate(0,8)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline103-32-0-0"
+   id="polyline103-32-0-9"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,363 v 127 h 55" />
-                <polygon
-   points="330,486.465 330,493.535 333.536,490 "
-   id="polygon103-15-2-1"
-   transform="rotate(-90,239,454)"
-   style="fill:#cccccc;fill-opacity:1" />
+                <path
+   id="polygon103-15-2-9"
+   d="M 275,359.464 271.465,363 h 7.07 z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="TD-RDat4-0"
-   transform="translate(415,-34)"
-   style="display:inline">
+   id="TD-RDat4-4"
+   transform="translate(0,6)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline104-91-4-1"
+   id="polyline104-91-4-9"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,365 v 105 h 55" />
-                <polygon
-   points="330,473.535 333.536,470 330,466.465 "
-   id="polygon104-4-3-3"
-   transform="rotate(-90,250,445)"
-   style="fill:#cccccc;fill-opacity:1" />
+                <path
+   id="polygon104-4-3-1"
+   d="m 271.465,365 h 7.07 L 275,361.464 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="TD-RDat3-7"
-   transform="translate(415,-34)"
-   style="display:inline">
+   id="TD-RDat3-5"
+   transform="translate(0,6)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline105-07-1-7"
+   id="polyline105-07-1-9"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,365 v 85 h 55" />
-                <polygon
-   points="330,446.465 330,453.535 333.536,450 "
-   id="polygon105-5-7-2"
-   transform="rotate(-90,260,435)"
-   style="fill:#cccccc;fill-opacity:1" />
+                <path
+   id="polygon105-5-7-8"
+   d="M 275,361.464 271.465,365 h 7.07 z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="TD-RDat2-6"
-   style="display:inline"
-   transform="translate(415,-40)">
+   id="TD-RDat2-3"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline106-7-3-4"
+   id="polyline106-7-3-0"
    transform="translate(0,6)"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,365 v 65 h 55" />
-                <polygon
-   points="333.536,430 330,426.465 330,433.535 "
-   id="polygon106-0-1-5"
-   transform="rotate(-90,273,428)"
-   style="fill:#cccccc;fill-opacity:1" />
+                <path
+   id="polygon106-0-1-9"
+   d="M 278.535,371 275,367.464 271.465,371 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="TD-RDat1-2"
-   transform="translate(415,-34)"
-   style="display:inline">
+   id="TD-RDat1-0"
+   transform="translate(0,6)"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline107-8-6-0"
+   id="polyline107-8-6-7"
    style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
    d="m 275,365 v 45 h 55" />
-                <polygon
-   points="333.536,410 330,406.465 330,413.535 "
-   id="polygon107-0-9-2"
-   transform="rotate(-90,280,415)"
-   style="fill:#cccccc;fill-opacity:1" />
+                <path
+   id="polygon107-0-9-6"
+   d="M 278.535,365 275,361.464 271.465,365 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
             <g
-   id="TD-RDat0-9"
+   id="TD-RDat0-8"
    transform="translate(0,6)"
-   style="display:inline;fill:none">
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
                 <path
-   id="polyline108-9-2-0"
-   style="fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
-   d="m 690,325 c 0,8.66667 0,16.33333 0,25 h 55" />
-                <polygon
-   points="333.536,390 330,386.465 330,393.535 "
-   id="polygon108-6-2-9"
-   transform="rotate(-90,477.5,177.5)"
-   style="fill:#cccccc;fill-opacity:1" />
+   id="polyline108-9-2-3"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="m 275,365 c 0,8.66667 0,16.33333 0,25 h 55" />
+                <path
+   id="polygon108-6-2-8"
+   d="M 278.535,365 275,361.464 271.465,365 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
             </g>
-        </g></g>
-    <g
-   id="Flechas"
-   style="display:inline">
+        </g>
+        
+        
         <g
-   id="CPro-RDir">
-            <polyline
-   fill="none"
-   stroke="#000000"
-   stroke-width="2"
-   stroke-miterlimit="10"
-   points="350,90 365,90 365,150 365,270 195,270 195,350 220,350"
-   id="polyline99" />
-            <polygon
-   points="220,346.465 220,353.535 223.536,350 "
-   id="polygon99" />
+   id="Acum-RDat-6"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   transform="rotate(90,555,165)">
+            <path
+   id="polyline125-1"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="M 490,330 V 290 H 715 V 205"
+   sodipodi:nodetypes="cccc" />
+            <path
+   id="polygon125-9"
+   d="m 493.07,330 -3.535,3.535 L 486,330 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
         </g>
         <g
-   id="CProInc">
-            <polygon
-   points="230,86.464 230,93.536 233.536,90 "
-   id="polygon100" />
-            <polyline
-   fill="none"
-   stroke="#000000"
-   stroke-width="2"
-   stroke-miterlimit="10"
-   points="350,90 365,90 365,65 215,65 215,90 230,90"
-   id="polyline100" />
+   id="RDat-RIns-6"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1">
+            <path
+   id="polyline126-7"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="M 496.465,170 H 430 v -70 h -40"
+   sodipodi:nodetypes="cccc" />
+            <path
+   id="polygon126-8"
+   transform="rotate(180,423.2325,160)"
+   d="M 350,153.535 346.465,150 350,146.465 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+        </g>
+        <g
+   id="RDat-REnt-9"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   transform="matrix(1,0,0,-1,-11,507)">
+            <path
+   id="polyline127-7"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="m 401,407 h 40 V 242 h 249 v -22"
+   sodipodi:nodetypes="ccccc" />
+            <path
+   id="polygon127-5"
+   d="m 690,216.465 3.535,3.535 h -7.07 z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+        </g>
+        
+        <g
+   id="RIns-Deco-5"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   transform="rotate(90,405.7325,406.2325)">
+            <path
+   id="polyline129-2"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="m 170.5,186.965 v -75 L 148.54654,112"
+   sodipodi:nodetypes="ccc" />
+            <path
+   id="polygon129-4"
+   d="m 145.965,111.965 3.535,-3.535 v 7.07 z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+        </g>
+        <g
+   id="ALU-Acum-9"
+   style="display:inline;stroke:#cccccc;stroke-opacity:1"
+   transform="matrix(1,0,0,-1,-25,520)">
+            <path
+   id="polyline130-4"
+   style="fill:none;stroke:#cccccc;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1"
+   d="M 647,90 V 80 h -87 -40 v 115 h 20"
+   sodipodi:nodetypes="cccccc" />
+            <path
+   id="polygon130-4"
+   d="M 540,198.535 543.535,195 540,191.465 Z"
+   style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-opacity:1" />
+        </g>
+    </g><g
+   id="Flechas"
+   style="display:inline"
+   sodipodi:insensitive="true">
+        <g
+   id="CPro-RDir"
+   style="display:inline">
+            <path
+   id="polyline99"
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   d="M 505,100 H 430 V 34 H 210 85 v 26"
+   sodipodi:nodetypes="cccccc" />
+            <path
+   id="polygon99"
+   d="m 88.535,60 h -7.07 L 85,63.536 Z"
+   sodipodi:nodetypes="cccc" />
+        </g><g
+   id="RIns-RDir"
+   style="display:inline"
+   inkscape:label="RIns-RDir">
+            <path
+   id="polyline99-6"
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   d="M 496.465,170 H 430 V 34 H 210 85 v 26"
+   sodipodi:nodetypes="cccccc" />
+            <path
+   id="polygon99-7"
+   d="m 88.535,60 h -7.07 L 85,63.536 Z" />
+        </g>
+        <g
+   id="CProInc"
+   style="display:inline"
+   transform="translate(271.80873,14.602326)">
+            <path
+   id="polygon100"
+   d="m 349.1738,96.46932 v -7.072 l -3.536,3.536 z" />
+            <path
+   id="polyline100"
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   d="M 352.87426,82.557732 H 365 V 69.504531 H 215 v 13.053201 h 9.37239"
+   transform="matrix(0.90271058,0,0,-1.0038426,30.630473,175.82847)"
+   sodipodi:nodetypes="cccccc" />
             <g
-   id="g101">
+   id="g101"
+   transform="translate(0.62462548,41.235462)">
                 <g
    id="g100">
-                    <rect
-   x="282"
-   y="58"
-   fill="#ffffff"
-   width="15"
-   height="15"
-   id="rect100" />
+                    <path
+   id="rect100"
+   style="fill:#ffffff"
+   d="m 282,58 h 15 v 15 h -15 z" />
                     <path
    d="M 297,58 V 72 H 283 V 58 h 14 m 1,-1 h -16 v 16 h 16 z"
    id="path100" />
                 </g>
-                <text
+                <path
+   d="M 5.0953127,-3.0796876 H 3.1968751 V -1.1625 H 2.5828126 V -3.0796876 H 0.66093753 V -3.6937501 H 2.5828126 v -1.9218751 h 0.6140625 v 1.9218751 H 5.0953127 Z M 10.532813,0 H 7.0546877 V -0.67031253 H 8.4562503 V -5.8078127 l -1.3218751,0.6609375 v -0.76875 l 1.4296876,-0.7359376 h 0.6609375 v 5.98125027 h 1.3078127 z"
+   id="text100"
+   style="font-size:9.6px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal'"
    transform="translate(284.6768,67.8169)"
-   font-family="MyriadPro-Regular"
-   font-size="9.6px"
-   id="text100">+1</text>
+   aria-label="+1" />
             </g>
         </g>
         <g
    id="RDir-TD"
-   style="display:inline">
+   style="display:inline"
+   transform="translate(-191.5,-248)">
             <g
    id="RDir-TD15"
    transform="translate(0,178)"
@@ -1392,9 +1407,9 @@
    id="polyline102-4"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,192 v 318 h 55" />
-                <polygon
-   points="330,513.535 333.536,510 330,506.465 "
-   id="polygon102-7" />
+                <path
+   id="polygon102-7"
+   d="m 330,506.465 v 7.07 L 333.536,510 Z" />
             </g><g
    id="RDir-TD13"
    transform="translate(0,176)"
@@ -1403,9 +1418,9 @@
    id="polyline103-4"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,194 v 296 h 55" />
-                <polygon
-   points="330,486.465 330,493.535 333.536,490 "
-   id="polygon103-0" />
+                <path
+   id="polygon103-0"
+   d="M 333.536,490 330,486.465 v 7.07 z" />
             </g><g
    id="RDir-TD12"
    transform="translate(0,174)"
@@ -1414,9 +1429,9 @@
    id="polyline104-2"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 274 h 55" />
-                <polygon
-   points="330,473.535 333.536,470 330,466.465 "
-   id="polygon104-9" />
+                <path
+   id="polygon104-9"
+   d="m 330,466.465 v 7.07 L 333.536,470 Z" />
             </g><g
    id="RDir-TD11"
    transform="translate(0,174)"
@@ -1425,9 +1440,9 @@
    id="polyline105-0"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 254 h 55" />
-                <polygon
-   points="330,446.465 330,453.535 333.536,450 "
-   id="polygon105-8" />
+                <path
+   id="polygon105-8"
+   d="M 333.536,450 330,446.465 v 7.07 z" />
             </g><g
    id="RDir-TD10"
    style="display:inline"
@@ -1437,10 +1452,10 @@
    transform="translate(0,6)"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 234 h 55" />
-                <polygon
-   points="333.536,430 330,426.465 330,433.535 "
+                <path
    id="polygon106-1"
-   transform="translate(0,6)" />
+   transform="translate(0,6)"
+   d="M 330,433.535 333.536,430 330,426.465 Z" />
             </g><g
    id="RDir-TD9"
    transform="translate(0,174)"
@@ -1449,9 +1464,9 @@
    id="polyline107-0"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 214 h 55" />
-                <polygon
-   points="330,413.535 333.536,410 330,406.465 "
-   id="polygon107-3" />
+                <path
+   id="polygon107-3"
+   d="m 330,406.465 v 7.07 L 333.536,410 Z" />
             </g><g
    id="RDir-TD8"
    transform="translate(0,174)"
@@ -1460,9 +1475,9 @@
    id="polyline108-0"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 194 h 55" />
-                <polygon
-   points="333.536,390 330,386.465 330,393.535 "
-   id="polygon108-3" />
+                <path
+   id="polygon108-3"
+   d="M 330,393.535 333.536,390 330,386.465 Z" />
             </g><g
    id="RDir-TD7"
    transform="translate(0,10)"
@@ -1483,9 +1498,9 @@
    id="polyline102"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,360 v 150 h 55" />
-                <polygon
-   points="333.536,510 330,506.465 330,513.535 "
-   id="polygon102" />
+                <path
+   id="polygon102"
+   d="M 330,513.535 333.536,510 330,506.465 Z" />
             </g>
             <g
    id="RDir-TD5"
@@ -1495,9 +1510,9 @@
    id="polyline103"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,362 v 128 h 55" />
-                <polygon
-   points="330,493.535 333.536,490 330,486.465 "
-   id="polygon103" />
+                <path
+   id="polygon103"
+   d="m 330,486.465 v 7.07 L 333.536,490 Z" />
             </g>
             <g
    id="RDir-TD4"
@@ -1507,9 +1522,9 @@
    id="polyline104"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,364 v 106 h 55" />
-                <polygon
-   points="333.536,470 330,466.465 330,473.535 "
-   id="polygon104" />
+                <path
+   id="polygon104"
+   d="M 330,473.535 333.536,470 330,466.465 Z" />
             </g>
             <g
    id="RDir-TD3"
@@ -1519,9 +1534,9 @@
    id="polyline105"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,364 v 86 h 55" />
-                <polygon
-   points="330,453.535 333.536,450 330,446.465 "
-   id="polygon105" />
+                <path
+   id="polygon105"
+   d="m 330,446.465 v 7.07 L 333.536,450 Z" />
             </g>
             <g
    id="RDir-TD2"
@@ -1531,10 +1546,10 @@
    transform="translate(0,6)"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,364 v 66 h 55" />
-                <polygon
-   points="330,426.465 330,433.535 333.536,430 "
+                <path
    id="polygon106"
-   transform="translate(0,6)" />
+   transform="translate(0,6)"
+   d="M 333.536,430 330,426.465 v 7.07 z" />
             </g>
             <g
    id="RDir-TD1"
@@ -1544,9 +1559,9 @@
    id="polyline107"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,364 v 46 h 55" />
-                <polygon
-   points="330,406.465 330,413.535 333.536,410 "
-   id="polygon107" />
+                <path
+   id="polygon107"
+   d="M 333.536,410 330,406.465 v 7.07 z" />
             </g>
             <g
    id="RDir-TD0"
@@ -1556,14 +1571,14 @@
    id="polyline108"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,364 v 26 h 55" />
-                <polygon
-   points="333.536,390 330,386.465 330,393.535 "
-   id="polygon108" />
+                <path
+   id="polygon108"
+   d="M 330,393.535 333.536,390 330,386.465 Z" />
             </g>
         </g><g
    id="RDir-TD-9"
    style="display:inline"
-   transform="matrix(-1,0,0,1,800,-1)">
+   transform="matrix(-1,0,0,1,614,-249)">
             <g
    id="RDat-TD15"
    transform="translate(0,179)"
@@ -1583,9 +1598,9 @@
    id="polyline102-4-8"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,192 v 318 h 55" />
-                <polygon
-   points="333.536,510 330,506.465 330,513.535 "
-   id="polygon102-7-0" />
+                <path
+   id="polygon102-7-0"
+   d="M 330,513.535 333.536,510 330,506.465 Z" />
             </g><g
    id="RDat-TD13"
    transform="translate(0,177)"
@@ -1594,9 +1609,9 @@
    id="polyline103-4-6"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,194 v 296 h 55" />
-                <polygon
-   points="330,493.535 333.536,490 330,486.465 "
-   id="polygon103-0-6" />
+                <path
+   id="polygon103-0-6"
+   d="m 330,486.465 v 7.07 L 333.536,490 Z" />
             </g><g
    id="RDat-TD12"
    transform="translate(0,175)"
@@ -1605,9 +1620,9 @@
    id="polyline104-2-0"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 274 h 55" />
-                <polygon
-   points="333.536,470 330,466.465 330,473.535 "
-   id="polygon104-9-0" />
+                <path
+   id="polygon104-9-0"
+   d="M 330,473.535 333.536,470 330,466.465 Z" />
             </g><g
    id="RDat-TD11"
    transform="translate(0,175)"
@@ -1616,9 +1631,9 @@
    id="polyline105-0-6"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 254 h 55" />
-                <polygon
-   points="330,453.535 333.536,450 330,446.465 "
-   id="polygon105-8-2" />
+                <path
+   id="polygon105-8-2"
+   d="m 330,446.465 v 7.07 L 333.536,450 Z" />
             </g><g
    id="RDat-TD10"
    style="display:inline"
@@ -1628,10 +1643,10 @@
    transform="translate(0,6)"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 234 h 55" />
-                <polygon
-   points="330,426.465 330,433.535 333.536,430 "
+                <path
    id="polygon106-1-5"
-   transform="translate(0,6)" />
+   transform="translate(0,6)"
+   d="M 333.536,430 330,426.465 v 7.07 z" />
             </g><g
    id="RDat-TD9"
    transform="translate(0,175)"
@@ -1640,9 +1655,9 @@
    id="polyline107-0-9"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 214 h 55" />
-                <polygon
-   points="333.536,410 330,406.465 330,413.535 "
-   id="polygon107-3-8" />
+                <path
+   id="polygon107-3-8"
+   d="M 330,413.535 333.536,410 330,406.465 Z" />
             </g><g
    id="RDat-TD8"
    transform="translate(0,175)"
@@ -1651,9 +1666,9 @@
    id="polyline108-0-2"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 194 h 55" />
-                <polygon
-   points="330,386.465 330,393.535 333.536,390 "
-   id="polygon108-3-8" />
+                <path
+   id="polygon108-3-8"
+   d="M 333.536,390 330,386.465 v 7.07 z" />
             </g><g
    id="RDat-TD7"
    transform="translate(0,11)"
@@ -1674,9 +1689,9 @@
    id="polyline102-2"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,361 v 149 h 55" />
-                <polygon
-   points="333.536,510 330,506.465 330,513.535 "
-   id="polygon102-76" />
+                <path
+   id="polygon102-76"
+   d="M 330,513.535 333.536,510 330,506.465 Z" />
             </g>
             <g
    id="RDat-TD5"
@@ -1686,9 +1701,9 @@
    id="polyline103-32"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,363 v 127 h 55" />
-                <polygon
-   points="330,493.535 333.536,490 330,486.465 "
-   id="polygon103-15" />
+                <path
+   id="polygon103-15"
+   d="m 330,486.465 v 7.07 L 333.536,490 Z" />
             </g>
             <g
    id="RDat-TD4"
@@ -1698,9 +1713,9 @@
    id="polyline104-91"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,365 v 105 h 55" />
-                <polygon
-   points="333.536,470 330,466.465 330,473.535 "
-   id="polygon104-4" />
+                <path
+   id="polygon104-4"
+   d="M 330,473.535 333.536,470 330,466.465 Z" />
             </g>
             <g
    id="RDat-TD3"
@@ -1710,9 +1725,9 @@
    id="polyline105-07"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,365 v 85 h 55" />
-                <polygon
-   points="330,453.535 333.536,450 330,446.465 "
-   id="polygon105-5" />
+                <path
+   id="polygon105-5"
+   d="m 330,446.465 v 7.07 L 333.536,450 Z" />
             </g>
             <g
    id="RDat-TD2"
@@ -1722,10 +1737,10 @@
    transform="translate(0,6)"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,365 v 65 h 55" />
-                <polygon
-   points="330,426.465 330,433.535 333.536,430 "
+                <path
    id="polygon106-0"
-   transform="translate(0,6)" />
+   transform="translate(0,6)"
+   d="M 333.536,430 330,426.465 v 7.07 z" />
             </g>
             <g
    id="RDat-TD1"
@@ -1735,9 +1750,9 @@
    id="polyline107-8"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,365 v 45 h 55" />
-                <polygon
-   points="330,406.465 330,413.535 333.536,410 "
-   id="polygon107-0" />
+                <path
+   id="polygon107-0"
+   d="M 333.536,410 330,406.465 v 7.07 z" />
             </g>
             <g
    id="RDat-TD0"
@@ -1747,14 +1762,14 @@
    id="polyline108-9"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,365 c 0,8.66667 0,16.33333 0,25 h 55" />
-                <polygon
-   points="330,386.465 330,393.535 333.536,390 "
-   id="polygon108-6" />
+                <path
+   id="polygon108-6"
+   d="M 333.536,390 330,386.465 v 7.07 z" />
             </g>
         </g><g
    id="RDir-TD-9-0"
    style="display:inline"
-   transform="matrix(-1,0,0,1,800,-1)">
+   transform="matrix(-1,0,0,1,614,-249)">
             <g
    id="TD-RDat15"
    transform="translate(0,179)"
@@ -1774,10 +1789,10 @@
    id="polyline102-4-8-0"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,192 v 318 h 55" />
-                <polygon
-   points="330,513.535 333.536,510 330,506.465 "
+                <path
    id="polygon102-7-0-5"
-   transform="rotate(-90,143.5,378.5)" />
+   transform="rotate(-90,143.5,378.5)"
+   d="m 330,506.465 v 7.07 L 333.536,510 Z" />
             </g><g
    id="TD-RDat13"
    transform="translate(0,177)"
@@ -1786,10 +1801,10 @@
    id="polyline103-4-6-2"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,194 v 296 h 55" />
-                <polygon
-   points="330,486.465 330,493.535 333.536,490 "
+                <path
    id="polygon103-0-6-9"
-   transform="rotate(-90,154.5,369.5)" />
+   transform="rotate(-90,154.5,369.5)"
+   d="M 333.536,490 330,486.465 v 7.07 z" />
             </g><g
    id="TD-RDat12"
    transform="translate(0,175)"
@@ -1798,10 +1813,10 @@
    id="polyline104-2-0-2"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 274 h 55" />
-                <polygon
-   points="330,473.535 333.536,470 330,466.465 "
+                <path
    id="polygon104-9-0-8"
-   transform="rotate(-90,165.5,360.5)" />
+   transform="rotate(-90,165.5,360.5)"
+   d="m 330,466.465 v 7.07 L 333.536,470 Z" />
             </g><g
    id="TD-RDat11"
    transform="translate(0,175)"
@@ -1810,10 +1825,10 @@
    id="polyline105-0-6-8"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 254 h 55" />
-                <polygon
-   points="330,446.465 330,453.535 333.536,450 "
+                <path
    id="polygon105-8-2-0"
-   transform="rotate(-90,175.5,350.5)" />
+   transform="rotate(-90,175.5,350.5)"
+   d="M 333.536,450 330,446.465 v 7.07 z" />
             </g><g
    id="TD-RDat10"
    style="display:inline"
@@ -1823,10 +1838,10 @@
    transform="translate(0,6)"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 234 h 55" />
-                <polygon
-   points="333.536,430 330,426.465 330,433.535 "
+                <path
    id="polygon106-1-5-9"
-   transform="rotate(-90,188.5,343.5)" />
+   transform="rotate(-90,188.5,343.5)"
+   d="M 330,433.535 333.536,430 330,426.465 Z" />
             </g><g
    id="TD-RDat9"
    transform="translate(0,175)"
@@ -1835,10 +1850,10 @@
    id="polyline107-0-9-9"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 214 h 55" />
-                <polygon
-   points="330,413.535 333.536,410 330,406.465 "
+                <path
    id="polygon107-3-8-6"
-   transform="rotate(-90,195.5,330.5)" />
+   transform="rotate(-90,195.5,330.5)"
+   d="m 330,406.465 v 7.07 L 333.536,410 Z" />
             </g><g
    id="TD-RDat8"
    transform="translate(0,175)"
@@ -1847,10 +1862,10 @@
    id="polyline108-0-2-5"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,196 v 194 h 55" />
-                <polygon
-   points="333.536,390 330,386.465 330,393.535 "
+                <path
    id="polygon108-3-8-4"
-   transform="rotate(-90,205.5,320.5)" />
+   transform="rotate(-90,205.5,320.5)"
+   d="M 330,393.535 333.536,390 330,386.465 Z" />
             </g><g
    id="TD-RDat7"
    transform="translate(0,11)"
@@ -1871,10 +1886,10 @@
    id="polyline102-2-6"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,361 v 149 h 55" />
-                <polygon
-   points="330,513.535 333.536,510 330,506.465 "
+                <path
    id="polygon102-76-0"
-   transform="rotate(-90,228,463)" />
+   transform="rotate(-90,228,463)"
+   d="m 330,506.465 v 7.07 L 333.536,510 Z" />
             </g>
             <g
    id="TD-RDat5"
@@ -1884,10 +1899,10 @@
    id="polyline103-32-0"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,363 v 127 h 55" />
-                <polygon
-   points="330,486.465 330,493.535 333.536,490 "
+                <path
    id="polygon103-15-2"
-   transform="rotate(-90,239,454)" />
+   transform="rotate(-90,239,454)"
+   d="M 333.536,490 330,486.465 v 7.07 z" />
             </g>
             <g
    id="TD-RDat4"
@@ -1897,10 +1912,10 @@
    id="polyline104-91-4"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,365 v 105 h 55" />
-                <polygon
-   points="330,473.535 333.536,470 330,466.465 "
+                <path
    id="polygon104-4-3"
-   transform="rotate(-90,250,445)" />
+   transform="rotate(-90,250,445)"
+   d="m 330,466.465 v 7.07 L 333.536,470 Z" />
             </g>
             <g
    id="TD-RDat3"
@@ -1910,10 +1925,10 @@
    id="polyline105-07-1"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,365 v 85 h 55" />
-                <polygon
-   points="330,446.465 330,453.535 333.536,450 "
+                <path
    id="polygon105-5-7"
-   transform="rotate(-90,260,435)" />
+   transform="rotate(-90,260,435)"
+   d="M 333.536,450 330,446.465 v 7.07 z" />
             </g>
             <g
    id="TD-RDat2"
@@ -1923,10 +1938,10 @@
    transform="translate(0,6)"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,365 v 65 h 55" />
-                <polygon
-   points="333.536,430 330,426.465 330,433.535 "
+                <path
    id="polygon106-0-1"
-   transform="rotate(-90,273,428)" />
+   transform="rotate(-90,273,428)"
+   d="M 330,433.535 333.536,430 330,426.465 Z" />
             </g>
             <g
    id="TD-RDat1"
@@ -1936,10 +1951,10 @@
    id="polyline107-8-6"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,365 v 45 h 55" />
-                <polygon
-   points="333.536,410 330,406.465 330,413.535 "
+                <path
    id="polygon107-0-9"
-   transform="rotate(-90,280,415)" />
+   transform="rotate(-90,280,415)"
+   d="M 330,413.535 333.536,410 330,406.465 Z" />
             </g>
             <g
    id="TD-RDat0"
@@ -1949,135 +1964,120 @@
    id="polyline108-9-2"
    style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
    d="m 275,365 c 0,8.66667 0,16.33333 0,25 h 55" />
-                <polygon
-   points="333.536,390 330,386.465 330,393.535 "
+                <path
    id="polygon108-6-2"
-   transform="rotate(-90,290,405)" />
+   transform="rotate(-90,290,405)"
+   d="M 330,393.535 333.536,390 330,386.465 Z" />
             </g>
         </g>
         
         
         <g
-   id="Acum-RDat">
-            <polyline
-   fill="none"
-   stroke="#000000"
-   stroke-width="2"
-   stroke-miterlimit="10"
-   points="490,330 490,200 540,200"
-   id="polyline125" />
-            <polygon
-   points="486,330 493.07,330 489.535,333.535 "
-   id="polygon125" />
+   id="Acum-RDat"
+   style="display:inline"
+   transform="rotate(90,555,165)">
+            <path
+   id="polyline125"
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   d="M 490,330 V 290 H 715 V 205"
+   sodipodi:nodetypes="cccc" />
+            <path
+   id="polygon125"
+   d="m 493.07,330 -3.535,3.535 L 486,330 Z" />
         </g>
         <g
-   id="RDat-RIns">
-            <polyline
-   fill="none"
-   stroke="#000000"
-   stroke-width="2"
-   stroke-miterlimit="10"
-   points="490,330 490,270 385,270 385,150 350,150"
-   id="polyline126" />
-            <polygon
-   points="350,146.465 350,153.535 346.465,150 "
-   id="polygon126" />
+   id="RDat-RIns"
+   style="display:inline">
+            <path
+   id="polyline126"
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   d="M 496.465,170 H 430 v -70 h -40"
+   sodipodi:nodetypes="cccc" />
+            <path
+   id="polygon126"
+   transform="rotate(180,423.2325,160)"
+   d="M 350,153.535 346.465,150 350,146.465 Z" />
         </g>
         <g
-   id="RDat-REnt">
-            <polyline
-   fill="none"
-   stroke="#000000"
-   stroke-width="2"
-   stroke-miterlimit="10"
-   points="580,350 640,350 690,350 690,270 690,220"
-   id="polyline127" />
-            <polygon
-   points="693.535,220 686.465,220 690,216.465 "
-   id="polygon127" />
+   id="RDat-REnt"
+   style="display:inline"
+   transform="matrix(1,0,0,-1,-11,507)">
+            <path
+   id="polyline127"
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   d="m 401,407 h 40 V 242 h 249 v -22"
+   sodipodi:nodetypes="ccccc" />
+            <path
+   id="polygon127"
+   d="m 690,216.465 3.535,3.535 h -7.07 z" />
+        </g>
+        
+        <g
+   id="RIns-Deco"
+   style="display:inline"
+   transform="rotate(90,405.7325,406.2325)">
+            <path
+   id="polyline129"
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   d="m 170.5,186.965 v -75 L 148.54654,112"
+   sodipodi:nodetypes="ccc" />
+            <path
+   id="polygon129"
+   d="m 145.965,111.965 3.535,-3.535 v 7.07 z" />
         </g>
         <g
-   id="RIns-RDir">
-            <polyline
-   fill="none"
-   stroke="#000000"
-   stroke-width="2"
-   stroke-miterlimit="10"
-   points="230,150 195,150 195,350 220,350"
-   id="polyline128" />
-            <polygon
-   points="220,346.465 220,353.535 223.536,350 "
-   id="polygon128" />
-        </g>
-        <g
-   id="RIns-Deco">
-            <polyline
-   fill="none"
-   stroke="#000000"
-   stroke-width="2"
-   stroke-miterlimit="10"
-   points="230,150 195,150 195,110 150,110"
-   id="polyline129" />
-            <polygon
-   points="150,106.465 150,113.535 146.465,110 "
-   id="polygon129" />
-        </g>
-        <g
-   id="ALU-Acum">
-            <polyline
-   fill="none"
-   stroke="#000000"
-   stroke-width="2"
-   stroke-miterlimit="10"
-   points="640,90 640,80 560,80 490,80 490,200 540,200"
-   id="polyline130" />
-            <polygon
-   points="540,196.465 540,203.535 543.535,200 "
-   id="polygon130" />
+   id="ALU-Acum"
+   style="display:inline"
+   transform="matrix(1,0,0,-1,-25,520)">
+            <path
+   id="polyline130"
+   style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10"
+   d="M 647,90 V 80 h -87 -40 v 115 h 20"
+   sodipodi:nodetypes="cccccc" />
+            <path
+   id="polygon130"
+   d="M 540,198.535 543.535,195 540,191.465 Z" />
         </g>
     </g>
     <g
-   id="Datos"
-   style="display:inline">
-        
-        
-        <text
-   id="RIns"
-   transform="translate(259.2109,154.6182)"
-   font-size="14"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline">00000000</text>
-        <text
-   id="CPro"
-   transform="translate(274.6055,94.6177)"
-   font-size="14"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">0000</text>
-        <text
-   id="Deco"
-   transform="translate(93.5059,125.5054)"
-   font-size="60"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline"><tspan
-     id="tspan130"
-     x="0"
-     y="0" /></text>
-        <text
-   id="REnt"
-   transform="translate(660,204.4673)"
-   font-size="14"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">00000000</text>
-        <text
-   id="Acum"
-   transform="translate(560,204.4673)"
-   font-size="14"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">00000000</text>
-        <text
-   id="RDir"
-   transform="translate(259.6055,354.6182)"
-   font-size="14"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">0000</text>
-        <text
-   id="RDat"
-   transform="translate(495,354.6182)"
-   font-size="14"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">00000000</text>
-    </g>
+   id="g13"
+   inkscape:label="Datos"
+   style="display:inline;fill:#000000;stroke:none"
+   sodipodi:insensitive="true"><text
+     id="RIns"
+     font-size="14"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;stroke:none"
+     x="528.52539"
+     y="175.85309">00000000</text><text
+     id="CPro"
+     font-size="14"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none"
+     x="546.43359"
+     y="104.81543">0000</text><text
+     id="REnt"
+     font-size="14"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none"
+     x="645.81128"
+     y="329.92734">00000000</text><text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3333px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+     x="699.23956"
+     y="133.37239"
+     id="Deco"
+     inkscape:label="Deco" /><text
+     id="Acum"
+     font-size="14"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none"
+     x="533.19305"
+     y="329.92734">00000000</text><text
+     id="RDir"
+     font-size="14"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none"
+     x="68.127663"
+     y="104.83008">0000</text><text
+     id="RDat"
+     font-size="14"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none"
+     x="301.32492"
+     y="104.83008">00000000</text></g>
 </svg>
